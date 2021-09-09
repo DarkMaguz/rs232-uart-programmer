@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HCPL-0631
+D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-063A
+D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-063N
+D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-063N_0
+D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+#End Doc Library

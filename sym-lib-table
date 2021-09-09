@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bjack)(type Legacy)(uri "/home/magnus/Dokumenter/Electronik/KiCad/rs232 uart programmer/bjack.lib")(options "")(descr ""))
+)
