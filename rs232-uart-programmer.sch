@@ -1305,10 +1305,10 @@ Connection ~ 7950 1850
 Wire Wire Line
 	7950 1850 8000 1850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR032
 U 1 1 613E50BD
 P 7550 1600
-F 0 "#PWR?" H 7550 1450 50  0001 C CNN
+F 0 "#PWR032" H 7550 1450 50  0001 C CNN
 F 1 "+5V" V 7550 1800 50  0000 C CNN
 F 2 "" H 7550 1600 50  0001 C CNN
 F 3 "" H 7550 1600 50  0001 C CNN
@@ -1317,4 +1317,98 @@ F 3 "" H 7550 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 1600 7600 1600
+$Comp
+L Device:LED LED3
+U 1 1 613E63BE
+P 5650 6700
+F 0 "LED3" V 5595 6779 50  0000 L CNN
+F 1 "LED" V 5686 6779 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 5650 6700 50  0001 C CNN
+F 3 "~" H 5650 6700 50  0001 C CNN
+	1    5650 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR031
+U 1 1 613E65F0
+P 5650 6950
+F 0 "#PWR031" H 5650 6800 50  0001 C CNN
+F 1 "+5V" H 5665 7123 50  0000 C CNN
+F 2 "" H 5650 6950 50  0001 C CNN
+F 3 "" H 5650 6950 50  0001 C CNN
+	1    5650 6950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 613E6704
+P 5650 6050
+F 0 "#PWR030" H 5650 5800 50  0001 C CNN
+F 1 "GND" V 5655 5877 50  0000 C CNN
+F 2 "" H 5650 6050 50  0001 C CNN
+F 3 "" H 5650 6050 50  0001 C CNN
+	1    5650 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 613E6813
+P 5650 6300
+F 0 "R5" H 5800 6250 50  0000 C CNN
+F 1 "220" H 5800 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5580 6300 50  0001 C CNN
+F 3 "~" H 5650 6300 50  0001 C CNN
+	1    5650 6300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5650 6050 5650 6150
+Wire Wire Line
+	5650 6450 5650 6550
+Wire Wire Line
+	5650 6850 5650 6950
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6140AC7E
+P 5450 4350
+F 0 "H3" H 5550 4396 50  0000 L CNN
+F 1 "MountingHole" H 5550 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 4350 50  0001 C CNN
+F 3 "~" H 5450 4350 50  0001 C CNN
+	1    5450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6140ADDA
+P 5450 4550
+F 0 "H4" H 5550 4596 50  0000 L CNN
+F 1 "MountingHole" H 5550 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 4550 50  0001 C CNN
+F 3 "~" H 5450 4550 50  0001 C CNN
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6140AE60
+P 5250 4550
+F 0 "H2" H 5350 4596 50  0000 L CNN
+F 1 "MountingHole" H 5350 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5250 4550 50  0001 C CNN
+F 3 "~" H 5250 4550 50  0001 C CNN
+	1    5250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6140AEEC
+P 5250 4350
+F 0 "H1" H 5350 4396 50  0000 L CNN
+F 1 "MountingHole" H 5350 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5250 4350 50  0001 C CNN
+F 3 "~" H 5250 4350 50  0001 C CNN
+	1    5250 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
