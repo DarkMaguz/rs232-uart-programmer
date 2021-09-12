@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name bjack)(type Legacy)(uri "/home/magnus/Dokumenter/Electronik/KiCad/rs232 uart programmer/bjack.lib")(options "")(descr ""))
+  (lib (name hcpl-0631)(type Legacy)(uri ${KIPRJMOD}/hcpl-0631.lib)(options "")(descr ""))
+  (lib (name B0505LS-1WR3)(type Legacy)(uri ${KIPRJMOD}/B0505LS-1WR3.lib)(options "")(descr ""))
 )
