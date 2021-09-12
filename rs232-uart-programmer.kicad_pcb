@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 7)
     (tracks 215)
     (zones 0)
     (modules 49)
@@ -231,7 +231,7 @@
   )
 
   (module MountingHole:MountingHole_3mm (layer F.Cu) (tedit 613DC8EB) (tstamp 613DCB6A)
-    (at 52.25 105.25)
+    (at 52.5 104.75)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
@@ -250,7 +250,7 @@
   )
 
   (module MountingHole:MountingHole_3mm (layer F.Cu) (tedit 613DC8E1) (tstamp 613DCB6A)
-    (at 53 44.75)
+    (at 52.75 45)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr virtual)
@@ -308,6 +308,11 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 9 "Net-(C9-Pad1)"))
+    (model ${KIPRJMOD}/B0505LS-1WR3.step
+      (offset (xyz 7.5 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 613D10ED) (tstamp 613D6371)
@@ -2283,7 +2288,7 @@
     )
   )
 
-  (module MountingHole:MountingHole_3mm (layer F.Cu) (tedit 613DC8F4) (tstamp 613DCB8F)
+  (module MountingHole:MountingHole_3mm (layer F.Cu) (tedit 613DC8F4) (tstamp 613DCE39)
     (at 107 105.25)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
@@ -2302,6 +2307,15 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Isolated RS232 to UART\nDesigned by DarkMagus" (at 72.75 44.25) (layer F.SilkS) (tstamp 613DCE73)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text JLCJLCJLCJLC (at 37.25 89.25 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Isolated RS232 to UART\nDesigned by DarkMagus" (at 72.75 44.25) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 34 108.5) (end 34 41.25) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 112.5 108.5) (end 34 108.5) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 112.5 41.25) (end 112.5 108.5) (layer Edge.Cuts) (width 0.2))
